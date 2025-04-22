@@ -1,0 +1,96 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#main-pudim {
+    width: 2%;
+    height: auto;
+    position: absolute;
+    top: 89%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    width: 75%;
+    height: 75%;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    background-image:
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png'),
+        url('./Pudim-de-doce-de-leite-removebg-preview.png'),
+        url('./shutterstock_698787097-1024x676-removebg-preview.png');
+    background-size:
+        100px 100px, 200px 200px, 300px 300px, 400px 400px, 500px 500px,
+        600px 600px, 700px 700px, 800px 800px, 900px 900px, 1000px 1000px,
+        600px 600px, 700px 700px, 800px 800px, 900px 900px, 1000px 1000px,
+        100px 100px, 200px 200px, 300px 300px, 400px 400px, 500px 500px;
+    background-position:
+        10% 20%, 30% 40%, 50% 60%, 70% 80%, 90% 15%,
+        25% 35%, 45% 55%, 65% 75%, 85% 95%, 12% 34%,
+        22% 44%, 32% 54%, 42% 64%, 52% 74%, 62% 84%,
+        72% 94%, 82% 14%, 92% 24%, 15% 35%, 25% 45%;
+}
+
+#mensagem {
+    display: none; /* Esconde a mensagem por padrão */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: large;
+    text-align: center;
+}
+
+#mensagem:target {
+    display: block; /* Mostra a mensagem quando o link é clicado */
+}
+
+#close-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#close-button:hover {
+    background-color: darkred;
+}
