@@ -7,8 +7,17 @@ p {
     font-size: xx-large;
 }
 
+#titulo-pudim  {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #main-pudim {
-    width: 2%;
+    width: 10px;
     height: auto;
     position: absolute;
     top: 89%;
@@ -21,7 +30,7 @@ p {
     height: 75%;
     background-color: brown;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid black;
