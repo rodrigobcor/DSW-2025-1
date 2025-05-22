@@ -1,0 +1,44 @@
+#cabecalhoLogosETitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f37032;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+#divsLogos {
+    width: 20%;
+    text-align: center;
+}
+
+#divMainTitulo {
+    color: #F6F6F6;
+    width: 60%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#logoUERJ {
+    width: 50%;
+}
+
+#logoProfissional {
+    width: 90%;
+
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    justify-content: left;
+    align-items: center;
+    background-color: #f37032;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+#rodape p {    
+    color: #F6F6F6;
+    font-size: 1.5vw;
+}

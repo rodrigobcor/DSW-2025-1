@@ -1,0 +1,50 @@
+#quadroLogin {
+    justify-content: center;
+    align-items: center;    
+    background-color: #faf5f3;
+    width: 53vw;    
+    margin-left: 22.5%;
+    margin-top: 5%;
+    border: 2px solid;
+}
+
+#tituloLogin {
+    background-color: #f37032;
+    color: #F6F6F6;    
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 2vw;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0;
+}
+
+.formularios-login {
+    text-align: center;
+    margin: 1.5vw;
+    font-size: 1.15vw;
+}
+
+.formularios-login input {
+    max-height: 2vw;
+    max-width: 30vw;
+    
+    &::placeholder {
+        font-size: 1.5vw;        
+    }
+}
+
+#botaoLogin {
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+#botaoLogin button {
+    font-size: 1.5vw;
+}
+
+#esqueceuSenha {
+    font-size: 1.15vw;
+    padding-bottom: 2vw;
+    text-align: center;
+}

@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profissional Online</title>
 
-    <link rel="stylesheet" href="cabecalhoLogos.css">
+    <link rel="stylesheet" href="./styles/mainStyles.css">
+    <link rel="stylesheet" href="./styles/cabecalhoErodape.css">
+    <link rel="stylesheet" href="./styles/loginFormulario.css">
 </head>
+
 <body>
     <div id="cabecalhoLogosETitulo">
 
-          <div id="logoUERJ">
-              <img src="https://www.alunoonline.uerj.br/images/logo_uerj_branco.gif">
-          </div>
+        <div id="divsLogos">
+            <img id="logoUERJ" src="https://www.alunoonline.uerj.br/images/logo_uerj_branco.gif">
+        </div>
 
-          <div>
-                  <h1 id="mainTitulo">Profissional Online</h1>
-          </div>
-       
+        <div id="divMainTitulo">
+            <p id="mainTitulo">Profissional Online</p>
+        </div>
+
+        <div id="divsLogos">
+            <img id="logoProfissional"
+                src="https://github.com/rodrigobcor/DSW-2025-1/blob/main/profissionalOnline/images/logo_profissionalonline.png?raw=true">
+        </div>
+
     </div>
+
+    <div id="quadroLogin">
+        <p id="tituloLogin">Identificação do Profissional</p>
+
+        <div class="formularios-login">
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" placeholder="Digite sua matrícula">
+        </div>
+
+        <div class="formularios-login">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+        </div>
+        <div id="botaoLogin">
+            <button type="submit">Entrar</button>
+        </div>
+        <div id="esqueceuSenha">
+            <p>Não possui ou esqueceu a senha? Clique <a href="#">aqui</a> para solicitá-la.</p>
+        </div>
+    </div>
+
+    <div id="rodape">
+
+        <div>
+            <p>
+                © 2024, Universidade do Estado do Rio de Janeiro. Todos os Direitos Reservados.
+            </p>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
