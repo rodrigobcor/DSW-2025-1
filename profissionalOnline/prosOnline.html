@@ -6,54 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profissional Online</title>
 
-    <link rel="stylesheet" href="./styles/mainStyles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        body {
+            background-image: url(https://www.alunoonline.uerj.br/images/fundo_pagina.jpg);
+            font-family: Verdana, "MS Sans Serif", Arial, Helvetica;
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="./styles/mainStyles.css">
     <link rel="stylesheet" href="./styles/cabecalhoErodape.css">
-    <link rel="stylesheet" href="./styles/loginFormulario.css">
+    <link rel="stylesheet" href="./styles/loginFormulario.css"> -->
 </head>
 
-<body>
-    <div id="cabecalhoLogosETitulo">
+<body class="relative m-0">
 
-        <div id="divsLogos">
-            <img id="logoUERJ" src="https://www.alunoonline.uerj.br/images/logo_uerj_branco.gif">
+    <div class="flex justify-center items-center bg-[#f37032] w-[80vw] mx-[10%]">
+
+        <div class="w-[20%] text-center">
+            <img class="w-[50%] mx-auto" id="logoUERJ" src="https://www.alunoonline.uerj.br/images/logo_uerj_branco.gif">
         </div>
 
-        <div id="divMainTitulo">
+        <div class="text-[#F6F6F6] w-[60%] text-center text-[2.5vw]">
             <p id="mainTitulo">Profissional Online</p>
         </div>
 
-        <div id="divsLogos">
-            <img id="logoProfissional"
+        <div class="w-[20%] text-center">
+            <img class="w-[90%]" id="logoProfissional"
                 src="https://github.com/rodrigobcor/DSW-2025-1/blob/main/profissionalOnline/images/logo_profissionalonline.png?raw=true">
         </div>
 
     </div>
 
-    <div id="quadroLogin">
-        <p id="tituloLogin">Identificação do Profissional</p>
+    <div class="bg-[#faf5f3] w-[53vw] mx-[22.5%] mt-[5%] border-2 border-black">
+        <p class="bg-[#f37032] text-[#F6F6F6] text-[1.5vw] font-bold m-0 mb-[2vw] text-center py-[0.5vw]">
+            Identificação do Profissional
+        </p>
 
-        <div class="formularios-login">
+        <div class="text-center m-[1.5vw] text-[1.15vw]">
             <label for="matricula">Matrícula:</label>
-            <input type="text" id="matricula" placeholder="Digite sua matrícula">
+                <input class="max-h-8 max-w-[30vw] placeholder:text-[1.2vw] mt-2 px-2 py-1 border rounded" type="text"
+                    id="matricula" placeholder="Digite sua matrícula">
         </div>
 
-        <div class="formularios-login">
+        <div class="text-center m-[1.5vw] text-[1.15vw]">
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" placeholder="Digite sua senha">
+            <input class="max-h-8 max-w-[30vw] placeholder:text-[1.2vw] mt-2 px-2 py-1 border rounded" type="password"
+                id="senha" placeholder="Digite sua senha">
         </div>
-        <div id="botaoLogin">
-            <button type="submit">Entrar</button>
+        <div class="text-center pb-[3vw]">
+            <button class="bg-[#f37032] text-white text-[1.5vw] px-4 py-2 rounded hover:bg-orange-600"
+                type="submit">Entrar</button>
         </div>
-        <div id="esqueceuSenha">
-            <p>Não possui ou esqueceu a senha? Clique <a href="#">aqui</a> para solicitá-la.</p>
+        <div class="text-[1.15vw] pb-[2vw] text-center" id="esqueceuSenha">
+            <p>Não possui ou esqueceu a senha? Clique <a class="text-blue-600 hover:underline" href="#">aqui</a> para
+                solicitá-la.</p>
         </div>
     </div>
 
-    <div id="rodape">
+    <div class="fixed bottom-0 bg-[#f37032] w-[80vw] mx-[10%] h-[3.5vw] flex items-center">
 
         <div>
-            <p>
-                © 2024, Universidade do Estado do Rio de Janeiro. Todos os Direitos Reservados.
+            <p class="text-[#F6F6F6] text-[1vw]">
+                © 2025, Universidade do Estado do Rio de Janeiro. Todos os Direitos Reservados.
             </p>
         </div>
 
