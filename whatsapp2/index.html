@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp 2</title>
+
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="fundo-verde"></div>
+
+    <div class="main-container">
+        <div class="container-esquerdo">
+
+            <!--header-esquerda -->
+            <div class="header">
+                <div class="foto-de-perfil">
+                    <img class="foto"
+                        src="https://thumbs.dreamstime.com/b/vetor-de-%C3%ADcone-perfil-do-avatar-padr%C3%A3o-foto-usu%C3%A1rio-m%C3%ADdia-social-183042379.jpg?w=768"
+                        alt="">
+                </div>
+                <div class="icones-navegacao">
+                    <li><i class="fa-solid fa-users"></i></li>
+                    <li><i class="fa-solid fa-message"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                </div>
+            </div>
+
+            <!--notificacoes -->
+            <div class="notificacoes">
+                <i class="fa-solid fa-bell-slash"></i>
+                <div class="texto-notificacao">
+                    <p>Seja Notificado por Mensagens Novas</p>
+                    <a href="#">Receba Notificações no Desktop</a>
+                </div>
+                <i></i>
+            </div>
+
+            <!--barra-de-pesquisa -->
+            <div class="barra-de-pesquisa">
+                <div class="input">
+                    <i></i>
+                    <input type="text" placeholder="Search or start new chat">
+                </div>
+                <i></i>
+            </div>
+
+            <!--chats -->
+            <div class="chat-lista">
+                <div class="chat-caixa">
+                    <div class="chat-img">
+                        <img class="img-cover"
+                            src="https://lh5.googleusercontent.com/-7ssjf_mDE1Q/AAAAAAAAAAI/AAAAAAAAASo/tioYx2oklWEHoo5nAEyCT-KeLxYqE5PuQCLcDEAE/s100-c-k-no-mo/photo.jpg"
+                            alt="">
+                    </div>
+                    <div class="chat-detalhes">
+                        <div class="chat-header">
+                            <h4>Aluno</h4>
+                            <p class="tempo unread">12:00</p>
+                        </div>
+                        <div class="chat-mensagem">
+                            <p>Professor, pode fazer a prova a lápis?</p>
+                            <b>1</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-caixa">
+                    <div class="chat-img">
+                        <img class="img-cover"
+                            src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231709/thesomeday123170900022/85622929-cone-de-perfil-de-avatar-padr%C3%A3o-espa%C3%A7o-reservado-para-fotos-cinza-vetores-de-ilustra%C3%A7%C3%B5es.jpg?ver=6"
+                            alt="">
+                    </div>
+                    <div class="chat-detalhes">
+                        <div class="chat-header">
+                            <h4>Outro Aluno</h4>
+                            <p class="tempo unread">13:11</p>
+                        </div>
+                        <div class="chat-mensagem">
+                            <p>Hoje é nhoque a bolonhesa no bandejão</p>
+                            <b>4</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-caixa">
+                    <div class="chat-img">
+                        <img class="img-cover"
+                            src="https://us.123rf.com/450wm/salamatik/salamatik1801/salamatik180100019/92979836-perfil-an%C3%B4nimo-rosto-%C3%ADcone-pessoa-silhueta-cinza-avatar-padr%C3%A3o-masculino-foto-espa%C3%A7o-reservado-isola.jpg?ver=6"
+                            alt="">
+                    </div>
+                    <div class="chat-detalhes">
+                        <div class="chat-header">
+                            <h4>Outro Outro Aluno</h4>
+                            <p class="tempo unread">14:22</p>
+                        </div>
+                        <div class="chat-mensagem">
+                            <p>Vai ter aula hoje?</p>
+                            <b>2</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-direito">
+
+            <!--header-direito -->
+            <div class="header">
+                <div class="img-texto">
+                    <div class="foto-de-perfil">
+                        <img class="foto"
+                            src="https://lh5.googleusercontent.com/-7ssjf_mDE1Q/AAAAAAAAAAI/AAAAAAAAASo/tioYx2oklWEHoo5nAEyCT-KeLxYqE5PuQCLcDEAE/s100-c-k-no-mo/photo.jpg"
+                            alt="">
+                    </div>
+                    <h4>Aluno<br><span>Online</span></h4>
+                </div>
+                <div class="icones-navegacao">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                </div>
+            </div>
+
+            <!--chat-container -->
+            <div id="chat-container" class="chat-container">
+                <div class="caixa-mensagem mensagem-minha">
+                    <p>Meu computador não ta funcionando<br><span>12:00</span></p>
+                </div>
+                <div class="caixa-mensagem mensagem-outro">
+                    <p>Reinicia<br><span>12:01</span></p>
+                </div>
+                <div class="caixa-mensagem mensagem-minha">
+                    <p>Não funciona nem o reiniciar<br><span>12:02</span></p>
+                </div>
+            </div>
+
+            <!--botao-enviar -->
+            <div class="botao-enviar">
+                <i class="fa-regular fa-face-grin"></i>
+                <i class="fa-sharp fa-solid fa-paperclip"></i>
+                <input id="text-to-send" type="text" placeholder="Escreva uma mensagem">
+                <button type="submit" name="enviar" onclick='enviarMensagem();'>Send</button>
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+
+        </div>
+    </div>
+</body>
